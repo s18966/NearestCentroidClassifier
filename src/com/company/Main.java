@@ -98,7 +98,7 @@ public class Main {
 
     }
     public static void main(String[] args) {
-        ArrayList<Point> allData = readCSV(new File("/Users/kinatra/Desktop/NAI_5/src/iris-data.csv"));
+        ArrayList<Point> allData = readCSV(new File("/src/iris-data.csv"));
         for(Point p : allData){
             System.out.println(p.toString());
         }
